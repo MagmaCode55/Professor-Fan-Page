@@ -1,5 +1,9 @@
 #center {
-
     text-align: center;
-    
-    }   
+}   
+
+img{
+    width: 600;
+    height: 600;
+    object-fit: fill;
+}
