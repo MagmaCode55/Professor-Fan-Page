@@ -56,10 +56,19 @@
                 <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email Address" required>
                 <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
             </div>
+            <p>Are you a student?</p>
             <div class="mb-3">
-                <label for="exampleInputPhoneNumber1" class="form-label">Phone Number</label>
-                <input type="tel" class="form-control" id="exampleInputPhoneNumber1" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-4567-890" required>
-            </div>
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" required>
+                <label class="form-check-label" for="flexRadioDefault1">
+                  Yes
+                </label>
+              </div>
+              <div class="mb-3">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                <label class="form-check-label" for="flexRadioDefault2">
+                  No
+                </label>
+              </div>
             <div class="mb-3">
                 <label for="text" class="form-label">Comments/Concerns/Questions</label>
                 <textarea class="form-control" id="text" placeholder="Comments/Concerns/Questions" rows="4" cols="5"></textarea>
