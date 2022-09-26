@@ -6,12 +6,6 @@
     color:white;
 }   
 
-img{
-    height: auto;
-    object-fit: fill;
-    max-height: 100%;
-}
-
 footer{
     background-color: black;
     text-align: center;
