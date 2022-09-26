@@ -11,3 +11,10 @@ img{
     height: 600;
     object-fit: fill;
 }
+
+footer{
+    align-items: center;
+    justify-content: center;
+    position:fixed;
+    bottom: 0;
+}
