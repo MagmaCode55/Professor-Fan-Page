@@ -10,6 +10,7 @@
         integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
         crossorigin="anonymous"></script>
     <script>
+        // this resets the form when submit button is clicked
         document.getElementById("form").reset();
     </script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -18,7 +19,6 @@
 
     <title>Contact Us Page</title>
 </head>
-
 <body>
     <nav class="navbar navbar-expand-md navbar-dark bg-dark">
         <div class="container-fluid">
@@ -41,6 +41,9 @@
 
         </div>
     </nav>
+    <header>
+        <h1 style="text-align: center;">Contact Us Form</h1>
+    </header>
     <div class="container-fluid">
         <form id="form">
             <div class="mb-3">
@@ -55,6 +58,10 @@
             <div class="mb-3">
                 <label for="exampleInputPhoneNumber1" class="form-label">Phone Number</label>
                 <input type="tel" class="form-control" id="exampleInputPhoneNumber1" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-4567-890">
+            </div>
+            <div class="mb-3">
+                <label for="text" class="form-label">Comments/Concerns/Questions</label>
+                <textarea class="form-control" id="text" placeholder="Comments/Concerns/Questions" rows="4" cols="5"></textarea>
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>
         </form>
