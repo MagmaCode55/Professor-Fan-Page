@@ -1,8 +1,13 @@
 #center {
-
     text-align: center;
 }
 
 #textChange{
     color:white;
+}   
+
+img{
+    width: 600;
+    height: 600;
+    object-fit: fill;
 }
